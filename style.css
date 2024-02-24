@@ -1,0 +1,81 @@
+/* Responsive styles for buttons */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    background-color: orange;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.container h2 {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+#todo-list {
+    background-color: rgb(253, 245, 245);
+    color: saddlebrown;
+    border: 1px solid;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0;
+}
+
+button {
+    padding: 4px 7px;
+    font-size: 16px;
+    width: 90px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 4px 6px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    color: hsla(hue, saturation, lightness, alpha);
+    cursor: pointer;
+    border-bottom: 1px solid; 
+    padding-left: 10px;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.editButton {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.deleteButton {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
